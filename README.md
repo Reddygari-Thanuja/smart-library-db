@@ -30,7 +30,6 @@ Building robust database pipelines requires more than just standard database que
 
 ---
 
-## ⚙️ How Users Can Get Started
 
 ### Prerequisites
 
@@ -51,5 +50,4 @@ Open your database UI editor, connect to your server instance, and execute the c
 Run your project's data seeding scripts to populate test rows across `branch`, `employees`, `members`, and `books`.
 4. **Initialize Procedures & Query Metrics:**
 Execute the stored procedure blocks (e.g., `issue_book`, `add_return_records`) to initialize your operational transaction layers.
-
 
