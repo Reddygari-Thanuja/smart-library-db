@@ -23,11 +23,6 @@ WHERE issued_id = 'IS121'
 SELECT * FROM issued_status
 WHERE issued_emp_id = 'E101';
 
-
--- Task 5: List Members Who Have Issued More Than One Book -- Objective: Use GROUP BY to find members who have issued more than one book.
-
-
-
 SELECT 
     ist.issued_emp_id,
      e.emp_name
@@ -315,4 +310,3 @@ CALL issue_book('IS156', 'C108', '978-0-375-41398-8', 'E104');
 
 SELECT * FROM books
 WHERE isbn = '978-0-375-41398-8'
-
