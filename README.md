@@ -1,4 +1,5 @@
-# smart-library-management-libraryhub
+# smart-library-db
+## Library Management System DB
 
 * **Project Title:** Library Management System
 * **Database Platform:** PostgreSQL / MySQL (`library_db`)
